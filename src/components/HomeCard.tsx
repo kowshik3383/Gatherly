@@ -22,7 +22,7 @@ const HomeCard = ({ className, img, title, description, handleClick }: HomeCardP
       onClick={handleClick}
     >
       <div className="flex-center glassmorphism size-12 rounded-[10px]">
-        <Image src={img} alt="meeting" width={27} height={27} />
+        <Image src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgettalkative.com%2Finfo%2Fwhat-is-video-chat&psig=AOvVaw0ELiLdsAwGsqvgKDjARA90&ust=1726633998125000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCAjIeTyYgDFQAAAAAdAAAAABAE" alt="meeting" width={27} height={27} />
       </div>
       
       <div className="flex flex-col gap-2">
