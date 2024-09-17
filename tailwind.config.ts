@@ -58,7 +58,7 @@ const config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        hero: "url('/images/hero-background.jpg')",
+        hero: "url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgettalkative.com%2Finfo%2Fwhat-is-video-chat&psig=AOvVaw0ELiLdsAwGsqvgKDjARA90&ust=1726633998125000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCAjIeTyYgDFQAAAAAdAAAAABAE')",
       },
     },
   },
