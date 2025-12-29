@@ -21,7 +21,7 @@ const config = {
       colors: {
         dark: {
           1: '#B4D4FF',
-          2: '#EEF5EE',
+          2: '#0A0A0A',
           3: '#252A41',
           4: '#1E2757',
         },
