@@ -1,9 +1,7 @@
 import { ReactNode } from 'react';
 import { ClerkProvider } from '@clerk/nextjs';
 
-import StreamVideoProvider from '@/providers/StreamClientProvider';
-
-const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
+const AuthLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <ClerkProvider
       appearance={{
@@ -20,11 +18,9 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         },
       }}
     >
-      <main>
-        <StreamVideoProvider>{children}</StreamVideoProvider>
-      </main>
+      {children}
     </ClerkProvider>
   );
 };
 
-export default RootLayout;
+export default AuthLayout;
